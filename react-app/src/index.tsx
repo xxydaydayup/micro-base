@@ -14,6 +14,7 @@ function render(props: any) {
     : document.getElementById("root");
   root = createRoot(dom);
   root.render(
+    //这里要设置basename，和主应用的入口文件中子应用列表的activeRule相同，用于主应用匹配路由
     <BrowserRouter basename="/sub-react">
       <App />
     </BrowserRouter>

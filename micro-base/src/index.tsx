@@ -18,7 +18,7 @@ root.render(
 const apps = [
   {
     name: "sub-react", // 子应用的名称
-    entry: "//localhost:3001", // 默认会加载这个路径下的html，解析里面的js
+    entry: "//localhost:3001", // 默认会加载这个路径下的html，解析里面的js。次entry的port是单独起服务时，子应用的端口
     activeRule: "/sub-react", // 匹配的路由
     container: "#sub-app", // 加载的容器
   },
