@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+//子应用接入乾坤第二步：新建public-path.js文件，子应用加载文件时防止路径错误
 import "./public-path.js";
 
 let root: any;
