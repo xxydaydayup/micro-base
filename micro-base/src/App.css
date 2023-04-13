@@ -1,10 +1,11 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 .ant-layout {
   height: 100%;
 }
 
 .page-logo {
   height: 36px;
+  width: 72px;
   margin: 22px 0;
 }
 
